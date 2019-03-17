@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' href='styles/dnevnikbg.css'>
+    <link rel='stylesheet' href='styles/style.css'>
+    <link rel='stylesheet' href='styles/reset.css'>
+    <script src="script.js"></script>
+    <script src="userStorage.js"></script>
+    <script src="userCollector.js"></script>
+
+
+
+    <title>Новини анализи и коментари-Dnevnik.bg</title>
+</head>
+<body>
+    <div class="container">
+
+        <nav class= 'nav-section'>
+            <div class = 'logo'>
+                <img class= 'logoIMG' src="assets/logo-dnevnik.svg">
+                <div class="menu-link">
+                    <div id="white"></div>
+                    <div id="white"></div>
+                    <div id="white"></div>
+                </div>
+            </div>
+            <div class = 'right'>
+                <ul class = 'nav-links'>
+                    <li class='godinataIcon'>2019: Годината</li>
+                    <li class='expressIcon'><img src="assets/rocket.svg"> Д: Експрес </li>
+                    <li class='allTodayIcon'>Всичко от днес</li>
+                    <li class='searchIcon'><img src="assets/search.svg"></li>
+                    <li><p class='loginP' ></p><img class='loginIcon' src="assets/profile.svg"></li>
+                    <li class='lastIcon'><img src="assets/e.svg"></li>
+                </ul>
+                <div class='profileBox' onmouseover="MouseOver1()" onmouseout='MouseOut1()'>
+                    
+                    <button  class='next'> <p id='profile'></p></button>
+                       <button class='next'> <p>Любими</p></button>
+                    <button class='next' id='nextLast'><p>Изход</p></button>
+    
+                    
+                </div>
+            </div>
+    
+        </nav>
+
+        
+    </header>
+    <article>
+            <div class='menuBox'onmouseover="MouseOver()" onmouseout='MouseOut()'>
+                    <ul>
+
+                        <li><a href='#'></a></li>
+                        <li><a href='#'>Новини</a></li>
+                            <li><a href='#'>Политика</a></li>
+                            <li><a href='#'>Култура</a></li>
+                            <li><a href='#'>Скорост</a></li>
+                            <li><a href='#'>Анализи</a></li>
+                            <li><a href='#'></a></li>
+                            <li> <a href='#'>Развлечение</a></li>
+                            <li> <a href='#'>Морски</a></li>
+                            <li> <a href='#'>Видео</a></li>
+                            <li> <a href='#'>Свят</a></li>
+                            <li> <a href='#'>Детски</a></li>
+                            <li><a href='#'></a></li>
+                           
+                
+                        </ul>
+                        </div>
+
+                        <div id='loginForm'>
+                                <img class= 'closing' src='assets/closingIcon2.png' alt='closingIcon'>
+                                <h1 class='.h1'>Вход</h1>
+                
+                                <form class='formLogin' action=''>
+                                        <input id='username' class='inputLogin' type='text' placeholder="Username:"/>
+                                        <input id='password' class='inputLogin'type='password' placeholder="Password:"/>
+                                        <button id='loginButton'>
+                                         <p>Вход</p>
+                                        </button>
+                                       
+                                        <hr class="loginHR">
+                    
+                                    </form>
+
+                                    <p id="successful">Успешна регистрация! Моля влезте в профила си.</p>
+                <form class='formRegister' action=''>
+                    <input id='username2' class='inputLogin' type='text' placeholder="Username:"/>
+                    <input id='password2' class='inputLogin'type='password' placeholder="Password:"/>
+                    
+                    <button id='registerButton'>
+                        <p>Регистрирай се сега!</p>
+                       </button>
+                    </button>
+                   
+
+                </form>
+                        </div>
+                    
+        <div id="articlesWrapper">
+            <div class="box">
+
+            </div> 
+            <div class="boxleft">
+                
+                    <a href="index2.html" title="Помпео: За САЩ ще е по-трудно да сме партньори, ако имате оборудване на Huawei"> <img class='kartinka1' src='assets/sasht.jpg' alt='kartinka1'/></a>
+                <h2 class="zaglaviq zaglavie1">
+                        <a href="index2.html" title="Помпео: За САЩ ще е по-трудно да сме партньори, ако имате оборудване на Huawei">Помпео: За САЩ ще е по-трудно да сме партньори, ако имате оборудване на Huawei</a>     
+                    </h2>       
+                    <div class="article-tools">
+                            <time datetime="2019-02-02T11:41">11:41, 02 фев 19</time> / 
+                <a href="/sviat/">Свят</a>
+                
+                <a href="/politika/2019/01/30/3382759_koi_kakvo_kazva_po_sluchaia_alo_banov_sum_obobshtenie/?ref=home_mainStory" title="Кой какво казва по случая &quot;Ало, Банов съм&quot;" </a>     
+                <img class='com' src='assets/comments_icon.JPG'>
+                5
+                </a>
+                    </div>
+                    </div>
+                    
+               
+                        
+                
+                
+            <div class="boxright">
+                <div class='boxrightLEFTHalf'>
+                        <a href="/gradska_sreda/2019/01/30/3382885_novite_plochki_okolo_curkvata_sv_sedmochislenici_se/?ref=home_main_news" title="Новите плочки около църквата &quot;Св. Седмочисленици&quot; се разместиха">
+                            
+                                      
+                        <img class='kartinka2' src="assets/kartinka2.jpg" alt="Новите плочки около църквата &quot;Св. Седмочисленици&quot; се разместиха">
+
+                    </a>
+                    <h4 class='malkizaglaviq zaglaviq'>
+                            <a href="/gradska_sreda/2019/01/30/3382885_novite_plochki_okolo_curkvata_sv_sedmochislenici_se/?ref=home_main_news" title="Новите плочки около църквата &quot;Св. Седмочисленици&quot; се разместиха">Новите плочки около църквата "Св. Седмочисленици" се разместиха</a>
+                    </h4>
+                    <div class="article-tools">
+                            <time datetime="2019-02-02T11:41">11:21, 02 фев 19</time> / 
+                <a href="/sviat/">Свят</a>
+                
+                <a href="/politika/2019/01/30/3382759_koi_kakvo_kazva_po_sluchaia_alo_banov_sum_obobshtenie/?ref=home_mainStory" title="Кой какво казва по случая &quot;Ало, Банов съм&quot;" </a>     
+                <img class='com' src='assets/comments_icon.JPG'>
+                15
+                </a>
+                    </div>
+                    <div class='smallLine'>
+
+                    </div>
+                    <h4 class='malkizaglaviq zaglaviq'>
+                            <a href="/bulgaria/2019/01/30/3382632_sudut_razreshil_i_stroitelstvoto_na_plaj_koral_krai/?ref=home_main_news" title="Съдебно решение отвори пътя за строителството на плаж &quot;Корал&quot; край Лозенец (допълнена)">Съдебно решение отвори пътя за строителството на плаж "Корал" край Лозенец (допълнена)</a>
+                    </h4>
+                    <div class="article-tools">
+                            <time datetime="2019-02-02T11:41">10:32, 02 фев 19</time> / 
+                <a href="/sviat/">Свят</a>
+                
+                <a href="/politika/2019/01/30/3382759_koi_kakvo_kazva_po_sluchaia_alo_banov_sum_obobshtenie/?ref=home_mainStory" title="Кой какво казва по случая &quot;Ало, Банов съм&quot;" </a>     
+                <img class='com' src='assets/comments_icon.JPG'>
+                9
+                </a>
+                    </div>
+
+
+                    </div>
+                
+                <div class='boxrightRIGHTHalf'>
+                        <h4 class='malkizaglaviq zaglaviq'>
+                                <a href="/bulgaria/2019/01/30/3382845_bulgarski_poshti_predupredi_za_izmama_s_mms-i_ot/?ref=home_main_news" title="От &quot;Български пощи&quot; предупредиха за измама с MMS-и от тяхно име">От "Български пощи" предупредиха за измама с MMS-и от тяхно име
+                                </a>
+                        </h4>
+
+                        <div class="article-tools">
+                                <time datetime="2019-02-02T11:41">9:22, 02 фев 19</time> / 
+                    <a href="/sviat/">Свят</a>
+                    
+                    <a href="/politika/2019/01/30/3382759_koi_kakvo_kazva_po_sluchaia_alo_banov_sum_obobshtenie/?ref=home_mainStory" title="Кой какво казва по случая &quot;Ало, Банов съм&quot;" </a>     
+                    <img class='com' src='assets/comments_icon.JPG'>
+                    52
+                    </a>
+                        </div>
+                        <div class='smallLine'>
+    
+                            </div>
+
+                            <h4 class='malkizaglaviq zaglaviq'>
+                                    <a href="/bulgaria/2019/01/30/3382807_oblastniiat_upravitel_na_lovech_poema_putnata_agenciia/?ref=home_main_news" title="Областният управител на Ловеч поема пътната агенция">Областният управител на Ловеч поема пътната агенция
+                                    </a>
+                            </h4>
+
+                            <div class="article-tools">
+                                    <time datetime="2019-02-02T11:41">8:22, 02 фев 19</time> / 
+                        <a href="/sviat/">Свят</a>
+                        
+                        <a href="/politika/2019/01/30/3382759_koi_kakvo_kazva_po_sluchaia_alo_banov_sum_obobshtenie/?ref=home_mainStory" title="Кой какво казва по случая &quot;Ало, Банов съм&quot;" </a>     
+                        <img class='com' src='assets/comments_icon.JPG'>
+                        9
+                        </a>
+                            </div>
+                            <div class='smallLine'>
+    
+                                </div>
+                                <h4 class='malkizaglaviq zaglaviq'>
+                                        <a href="/politika/2019/01/30/3382831_durjavata_pravi_publichni_nova_porciia_danni/?ref=home_main_news" title="Държавата прави публични нова порция данни">Държавата прави публични нова порция данни</a>
+                                </h4>
+                                <div class="article-tools">
+                                        <time datetime="2019-02-02T11:41">08:21, 02 фев 19</time> / 
+                            <a href="/sviat/">Свят</a>
+                            
+                            <a href="/politika/2019/01/30/3382759_koi_kakvo_kazva_po_sluchaia_alo_banov_sum_obobshtenie/?ref=home_mainStory" title="Кой какво казва по случая &quot;Ало, Банов съм&quot;" </a>     
+                            <img class='com' src='assets/comments_icon.JPG'>
+                            16
+                            </a>
+                                </div>
+                               <div class='smallLine'>
+    
+                                </div>
+                                <h4 class='malkizaglaviq zaglaviq'>
+                                        <a href="/bulgaria/2019/01/30/3382839_nova_instrukciia_za_konvoiraneto_prangi_na_krakata/?ref=home_main_news" title="Нова инструкция за конвоирането: Пранги на краката само ако има риск за бягство или агресия">Нова инструкция за конвоирането: Пранги на краката само ако има риск за бягство или агресия
+                                        </a>
+                                </h4>
+                                <div class="article-tools">
+                                        <time datetime="2019-02-02T11:41">14:41, 02 фев 19</time> / 
+                            <a href="/sviat/">Свят</a>
+                            
+                            <a href="/politika/2019/01/30/3382759_koi_kakvo_kazva_po_sluchaia_alo_banov_sum_obobshtenie/?ref=home_mainStory" title="Кой какво казва по случая &quot;Ало, Банов съм&quot;" </a>     
+                            <img class='com' src='assets/comments_icon.JPG'>
+                            13
+                            </a>
+                                </div>
+
+
+
+                    </div>
+                    
+
+                    
+                
+            
+
+        </div>
+    </div> 
+ 
+    
+        <!-- <p class='filter'>Филтър</p> -->
+       
+    
+        
+
+    <div class='horizontalArticleswrapper'>
+            
+                    <div class="horizontalArticleswrapper1">
+                        <img class='kartinka2' src='assets/kartinka3.jpg' alt='Kartinka 3'>
+                        <h4 class='malkizaglaviq zaglaviq'>
+                                <a href="/analizi/2019/02/02/3383095_prof_d-r_evgeniia_kalinova_simvolichni_voini_niama_i/?ref=home_layer2" title="Проф. д-р Евгения Калинова: Символични войни няма и не може да има">Проф. д-р Евгения Калинова: Символични войни няма и не може да има</a>
+                        </h4>
+                        <div class="article-tools">
+                                <time datetime="2019-02-02T11:41">16:30, 02 фев 19</time> / 
+                    <a href="/sviat/">Свят</a>
+                    
+                    <a href="/politika/2019/01/30/3382759_koi_kakvo_kazva_po_sluchaia_alo_banov_sum_obobshtenie/?ref=home_mainStory" title="Кой какво казва по случая &quot;Ало, Банов съм&quot;" </a>     
+                    <img class='com' src='assets/comments_icon.JPG'>
+                    8
+                    </a>
+                        </div>
+                        <div class="smallLine">
+
+                        </div>
+                        <h4 class="malkizaglaviq zaglaviq">
+                        <a href="/sviat/2019/02/02/3384219_kitaiski_kosmicheska_centur_v_arjentina_budi_trevoga/?ref=home_layer2" title="Китайски космическа център в Аржентина буди тревога">Китайски космическа център в Аржентина буди тревога</a>
+                    </h4>
+                    <div class="article-tools">
+                            <time datetime="2019-02-02T11:41">16:30, 02 фев 19</time> / 
+                <a href="/sviat/">Свят</a>
+                
+                <a href="/politika/2019/01/30/3382759_koi_kakvo_kazva_po_sluchaia_alo_banov_sum_obobshtenie/?ref=home_mainStory" title="Кой какво казва по случая &quot;Ало, Банов съм&quot;" </a>     
+                <img class='com' src='assets/comments_icon.JPG'>
+                8
+                </a>
+                    </div>
+                    <div class="smallLine">
+
+                        </div>
+                    </div>
+                    
+                    <div class="horizontalArticleswrapper1">
+                        
+                            <img class='kartinka2' src='assets/kartinka4.jpg' alt='Kartinka 4'>
+
+                            <h4 class='malkizaglaviq zaglaviq'>
+                                    <a href="/detski_dnevnik/2019/02/02/3383881_muzikata_koiato_te_kara_da_vijdash/?ref=home_layer2" title="Когато музиката ти позволи да видиш">Когато музиката ти позволи да видиш</a>
+                            </h4>
+                            <div class="article-tools">
+                                    <time datetime="2019-02-02T11:41">8:32, 02 фев 19</time> / 
+                        <a href="/sviat/">Свят</a>
+                        
+                        <a href="/politika/2019/01/30/3382759_koi_kakvo_kazva_po_sluchaia_alo_banov_sum_obobshtenie/?ref=home_mainStory" title="Кой какво казва по случая &quot;Ало, Банов съм&quot;" </a>     
+                        <img class='com' src='assets/comments_icon.JPG'>
+                        2
+                        </a>
+                            </div>
+                            <div class="smallLine">
+                            
+                                </div>
+                                <h4 class="malkizaglaviq zaglaviq">
+                                        <a href="/sviat/2019/02/02/3384374_vlastite_v_germanskiia_grad_mjulhauzen_tursiat_novo/?ref=home_layer2" title="Властите в Мюлхаузен търсят ново място за музея на тюрингската наденичка">Властите в Мюлхаузен търсят ново място за музея на тюрингската наденичка</a>                                    </h4>
+                                    <div class="article-tools">
+                                            <time datetime="2019-02-02T11:41">16:30, 02 фев 19</time> / 
+                                <a href="/sviat/">Свят</a>
+                                
+                                <a href="/politika/2019/01/30/3382759_koi_kakvo_kazva_po_sluchaia_alo_banov_sum_obobshtenie/?ref=home_mainStory" title="Кой какво казва по случая &quot;Ало, Банов съм&quot;" </a>     
+                                <img class='com' src='assets/comments_icon.JPG'>
+                                8
+                                </a>
+                                    </div>
+                                    <div class="smallLine">
+                
+                                        </div>
+                        </div>
+                      
+                        <div class="horizontalArticleswrapper1">
+                                <img class='kartinka2' src='assets/kartinka5.jpg' alt='Kartinka 5'>
+                                <h4 class='malkizaglaviq zaglaviq'>
+                                <a href="/skorost/2019/02/02/3384111_fotogaleriia_obnovenata_v-klasa_na_mercedes/?ref=home_layer2" title="Фотогалерия: Обновената V-класа на &quot;Мерцедес&quot;">Фотогалерия: Обновената V-класа на "Мерцедес"</a>
+                            </h4>
+                            
+                            <div class="article-tools">
+                                    <time datetime="2019-02-02T11:41">14:21, 02 фев 19</time> / 
+                        <a href="/sviat/">Свят</a>
+                        
+                        <a href="/politika/2019/01/30/3382759_koi_kakvo_kazva_po_sluchaia_alo_banov_sum_obobshtenie/?ref=home_mainStory" title="Кой какво казва по случая &quot;Ало, Банов съм&quot;" </a>     
+                        <img class='com' src='assets/comments_icon.JPG'>
+                        2
+                        </a>
+                            </div>
+                            <div class="smallLine">
+                            
+                                </div>
+                                <h4 class="malkizaglaviq zaglaviq">
+                                        <a href="/bulgaria/2019/02/02/3384400_kratki_novini_v_kazanluk_protestiraha_sreshtu/?ref=home_layer2" title="Кратки новини: В Казанлък протестираха срещу движението на каруци по пътищата">Кратки новини: В Казанлък протестираха срещу движението на каруци по пътищата</a>                       
+                                </h4>     <div class="article-tools">
+                                            <time datetime="2019-02-02T11:41">16:30, 02 фев 19</time> / 
+                                <a href="/sviat/">Свят</a>
+                                
+                                <a href="/politika/2019/01/30/3382759_koi_kakvo_kazva_po_sluchaia_alo_banov_sum_obobshtenie/?ref=home_mainStory" title="Кой какво казва по случая &quot;Ало, Банов съм&quot;" </a>     
+                                <img class='com' src='assets/comments_icon.JPG'>
+                                8
+                                </a>
+                                    </div>
+                                    <div class="smallLine">
+                
+                                        </div>
+                                
+                            </div>
+            
+                            <h1 class='golemi'>Анализи></h1>
+
+                        
+            <div class="horizontalArticleswrapper1">
+                    <img class='krugli' src='assets/krugla_kartinka2.jpg' alt="krugla kartinka 2">
+                    <p class='cherveniImena'>Даниел Смилов> </p>
+                <h4 class='malkizaglaviq zaglaviq'>
+                        <a href="/analizi/2019/02/01/3384013_sled_ioncheva_i_banov_subitiiata_moje_da_stanat/?ref=home_analizi" title="След &quot;Йончева&quot; и &quot;Банов&quot;: събитията може да станат неконтролируеми">След "Йончева" и "Банов": събитията може да станат неконтролируеми</a>
+                </h4>
+                <div class="article-tools">
+                        <time datetime="2019-02-02T11:41">16:30, 02 фев 19</time> / 
+            <a href="/analizi/">Анализи</a>
+            
+            <a href="/politika/2019/01/30/3382759_koi_kakvo_kazva_po_sluchaia_alo_banov_sum_obobshtenie/?ref=home_mainStory" title="Кой какво казва по случая &quot;Ало, Банов съм&quot;" </a>     
+            <img class='com' src='assets/comments_icon.JPG'>
+            1
+            </a>
+                </div>
+
+    </div>
+
+    <div class="horizontalArticleswrapper1">
+            <img class='krugli' src='assets/krugla_kartinka3.jpg' alt="krugla kartinka 3">
+            <p class='cherveniImena'>Александър Кьосев> </p>
+            <h4 class='malkizaglaviq zaglaviq'>
+                    <a href="/analizi/2019/02/01/3383856_istoriiata_na_moia_chicho_kolyo/?ref=home_analizi" title="Историята на моя чичо Кольо">Историята на моя чичо Кольо</a>
+            </h4>
+            <div class="article-tools">
+                    <time datetime="2019-02-02T11:41">16:30, 02 фев 19</time> / 
+        <a href="/analizi/">Анализи</a>
+        
+        <a href="/politika/2019/01/30/3382759_koi_kakvo_kazva_po_sluchaia_alo_banov_sum_obobshtenie/?ref=home_mainStory" title="Кой какво казва по случая &quot;Ало, Банов съм&quot;" </a>     
+        <img class='com' src='assets/comments_icon.JPG'>
+        1
+        </a>
+            </div>
+
+</div>
+<div class="horizontalArticleswrapper1">
+        <img class='krugli' src='assets/krugla_kartinka.jpg' alt="krugla kartinka 1">
+        <p class='cherveniImena'>Дневник> </p>
+        <h4 class='malkizaglaviq zaglaviq'>
+                <a href="/analizi/2019/02/01/3383395_na_74-ata_godina_ot_narodniia_sud_ranite_stoiat/?ref=home_analizi" title="На 74-ата година от &quot;народния съд&quot; раните стоят неизлекувани">На 74-ата година от "народния съд" раните стоят неизлекувани</a>
+        </h4>
+        <div class="article-tools">
+                <time datetime="2019-02-02T11:41">16:30, 02 фев 19</time> / 
+    <a href="/analizi/">Анализи</a>
+    
+    <a href="/politika/2019/01/30/3382759_koi_kakvo_kazva_po_sluchaia_alo_banov_sum_obobshtenie/?ref=home_mainStory" title="Кой какво казва по случая &quot;Ало, Банов съм&quot;" </a>     
+    <img class='com' src='assets/comments_icon.JPG'>
+    1
+    </a>
+        </div>
+</div>
+
+    
+
+<h1 class='golemi'>Избор на редактора></h1>
+
+    <div class='halfwrapper'>
+            <img class='halfsnimki' src='assets/half_photos1.jpg' alt='half photo'>
+            <h4 class='malkizaglaviq zaglaviq'>
+
+                    <a href="/sport/2019/02/02/3384308_fotogaleriia_nedostijimata_lindzi_von_i_velikolepnata/?ref=home_editorial" title="Фотогалерия: Недостижимата Линдзи Вон и великолепната ѝ кариера">Фотогалерия: Недостижимата Линдзи Вон и великолепната ѝ кариера
+                    </a>
+                </h4>
+                    <div class="article-tools">
+                            <time datetime="2019-02-02T11:41">16:30, 02 фев 19</time> / 
+                <a href="/sviat/">Свят</a>
+                
+                <a href="/politika/2019/01/30/3382759_koi_kakvo_kazva_po_sluchaia_alo_banov_sum_obobshtenie/?ref=home_mainStory" title="Кой какво казва по случая &quot;Ало, Банов съм&quot;" </a>     
+                <img class='com' src='assets/comments_icon.JPG'>
+                8
+                </a>
+                    </div>
+                    <div class="smallLine">
+
+                        </div>
+                        <h4 class='malkizaglaviq zaglaviq '>
+                                <a href="/evropa/2019/02/02/3383997_na_jivot_i_smurt_britanci_se_zapasiavat_s_lekarstva/?ref=home_editorial" title="На живот и смърт: британци се запасяват с лекарства заради страх от Брекзит без сделка">На живот и смърт: британци се запасяват с лекарства заради страх от Брекзит без сделка</a>                             
+                                </h4>
+                                <div class="article-tools">
+                                            <time datetime="2019-02-02T11:41">16:30, 02 фев 19</time> / 
+                                <a href="/sviat/">Свят</a>
+                                
+                                <a href="/politika/2019/01/30/3382759_koi_kakvo_kazva_po_sluchaia_alo_banov_sum_obobshtenie/?ref=home_mainStory" title="Кой какво казва по случая &quot;Ало, Банов съм&quot;" </a>     
+                                <img class='com' src='assets/comments_icon.JPG'>
+                                8
+                                
+                                    </div>
+                                    <div class="smallLine">
+                        
+                                        </div>
+                                        <h4 class='malkizaglaviq zaglaviq '>
+                                                <a href="/sport/2019/02/02/3383833_reklamite_v_superboul_-_biznesut_za_milioni_v/?ref=home_editorial" title="Рекламите в &quot;Супербоул&quot; - бизнесът за милиони в спортното събитие на годината">Рекламите в "Супербоул" - бизнесът за милиони в спортното събитие на годината</a>                                                </h4>
+                                                <div class="article-tools">
+                                                            <time datetime="2019-02-02T11:41">16:30, 02 фев 19</time> / 
+                                                <a href="/sviat/">Свят</a>
+                                                
+                                                <a href="/politika/2019/01/30/3382759_koi_kakvo_kazva_po_sluchaia_alo_banov_sum_obobshtenie/?ref=home_mainStory" title="Кой какво казва по случая &quot;Ало, Банов съм&quot;" </a>     
+                                                <img class='com' src='assets/comments_icon.JPG'>
+                                                8
+                                                
+                                                    </div>
+                                </div>
+                
+           
+            
+    
+    <div class='halfwrapper'>
+            <img class='halfsnimki' src='assets/half_photos2.jpg' alt='half photo2'>
+<h4 class='malkizaglaviq zaglaviq '>
+        <a href="/zelen/2019/02/02/3384051_deniat_na_vlajnite_zoni_se_otbeliazva_dnes/?ref=home_editorial" title="Денят на влажните зони се отбелязва днес">Денят на влажните зони се отбелязва днес</a>        </h4>
+            <div class="article-tools">
+                    <time datetime="2019-02-02T11:41">16:30, 02 фев 19</time> / 
+        <a href="/sviat/">Свят</a>
+        
+        <a href="/politika/2019/01/30/3382759_koi_kakvo_kazva_po_sluchaia_alo_banov_sum_obobshtenie/?ref=home_mainStory" title="Кой какво казва по случая &quot;Ало, Банов съм&quot;" </a>     
+        <img class='com' src='assets/comments_icon.JPG'>
+        8
+        </a>
+            </div>
+            <div class="smallLine">
+
+                </div>
+                <h4 class='malkizaglaviq zaglaviq'>
+
+                        <a href="/sviat/2019/02/02/3384218_mrusni_pari_moje_da_pomrachat_cifrovata_utopiia_na/?ref=home_editorial" title="&quot;Мръсни пари&quot; може да помрачат цифровата утопия на Естония">"Мръсни пари" може да помрачат цифровата утопия на Естония</a>                        </a>
+                    </h4>
+                        <div class="article-tools">
+                                <time datetime="2019-02-02T11:41">16:30, 02 фев 19</time> / 
+                    <a href="/sviat/">Свят</a>
+                    
+                    <a href="/politika/2019/01/30/3382759_koi_kakvo_kazva_po_sluchaia_alo_banov_sum_obobshtenie/?ref=home_mainStory" title="Кой какво казва по случая &quot;Ало, Банов съм&quot;" </a>     
+                    <img class='com' src='assets/comments_icon.JPG'>
+                    8
+                    </a>
+                        </div>
+                        <div class="smallLine">
+    
+                            </div>
+                            <h4 class='malkizaglaviq zaglaviq'>
+
+                                    <a href="/sviat/2019/02/02/3384248_venecuelskata_opoziciia_svikva_protest_ot_lima_do/?ref=home_editorial" title="Венецуелската опозиция свиква протест &quot;от Лима до Бейрут&quot; с призив към Европа">Венецуелската опозиция свиква протест "от Лима до Бейрут" с призив към Европа</a>                                </h4>
+                                    <div class="article-tools">
+                                            <time datetime="2019-02-02T11:41">16:30, 02 фев 19</time> / 
+                                <a href="/sviat/">Свят</a>
+                                
+                                <a href="/politika/2019/01/30/3382759_koi_kakvo_kazva_po_sluchaia_alo_banov_sum_obobshtenie/?ref=home_mainStory" title="Кой какво казва по случая &quot;Ало, Банов съм&quot;" </a>     
+                                <img class='com' src='assets/comments_icon.JPG'>
+                                8
+                                </a>
+                                    </div>
+        </div>
+    
+    </div>
+
+    <div class='reklamawrapper'>
+        <img  src='assets/reklama-min (1).JPG'>
+    </div>
+
+        
+    <div class="photo-gallery">
+            <h2>Снимки  ></h2>
+            <div class="section-1" >
+                <div  class="photos-links big-photo">
+                        <a href='#'><img id= 'photo1' class='boxIMG' src="assets/ski-queen.jpg" alt="Кралицата на скоростта Вон и емоционалната ѝ раздяла със ските"></a>
+                        <h4 id='id1' class="text-image"> Кралицата на скоростта Вон и емоционалната ѝ раздяла със ските</h4>
+                </div>
+                <div class="subsection">
+                <div class="photos-links">
+                        <a href='#'><img id= 'photo2' class='boxIMG' src="assets/v-narodnoto.jpg" alt="В Народното събрание"></a>
+                        <h4 id='id2' class="text-image"> В Народното събрание</h4>
+                </div>
+                <div class="photos-links">
+                        <a href='#'><img id= 'photo3' class='boxIMG' src="assets/voenna.jpg" alt="Как се укрепва и разкрасява оградата на Военната академия в София"></a>
+                        <h4 id='id3' class="text-image"> Как се укрепва и разкрасява оградата на Военната академия в София</h4>
+                </div>
+                </div>
+            </div>
+            <div class="section-2">
+                <div class="photos-links">
+                    <a href='#'><img id= 'photo4' class='boxIMG' src="assets/sport.jpg" alt="Бира, зрелище и разочарование пред жълтата стена"></a>
+                    <h4 id='id4' class="text-image">Бира, зрелище и разочарование пред "жълтата стена"</h4>
+                </div>
+                <div class="photos-links">
+                        <a href='#'> <img id= 'photo5' class='boxIMG' src="assets/church.jpg" alt="Снимка на деня: В почит на Св. Харалампий"></a>
+                <h4 id='id5' class="text-image">Снимка на деня: В почит на "Св. Харалампий"</h4>
+                    
+                </div>
+                <div class="photos-links">
+                        <a href='#'> <img id= 'photo6' class='boxIMG'src="assets/columbia.jpg" alt="Орхидеи от Колумбия"></a>
+                        <h4 id='id6'class="text-image"> Орхидеи от Колумбия</h4>
+                </div>
+            </div>
+       
+      
+       
+    
+        </div>
+       
+    
+</article>
+
+   
+</div>
+
+   
+    
+</header>
+
+</div>
+<script src="script.js"></script>
+    <script src="userStorage.js"></script>
+    <script src="userCollector.js"></script>
+
+
+</body>
+
+<footer class="details">
+
+    <div class="left-column"> 
+   <div>© 2001 – 2019 Икономедиа АД. Някои снимки © 2019 Associated Press и Reuters. Всички права запазени.</div> 
+   <div>Общи условия за ползване | Политика за бисквитките | Декларация за поверителност </div> 
+   <div>Уеб разработка на Икономедиа + дизайн на Studio X </div> 
+   <div>Действителни собственици на настоящото издание са Иво Георгиев Прокопиев и Теодор Иванов Захов.</div> 
+   <div>Дневник спазва етичния кодекс на българските медии.</div> 
+
+</div>
+ <div class ="right-column">
+
+        <div>Бизнес: Капитал Кариери Бизнес Регал Одит Foton.bg</div>
+        <div>Новини: Дневник Европа </div>
+         <div>IT: Computerworld PC World CIO Networkworld</div>
+        <div>Развлечение: Бакхус LIGHT</div>
+        <div>На английски: KQuarterly</div>
+
+ </div>
+
+
+    
+</footer>
+
+<div class="amb">
+
+        <img src="assets/amb.jpg">
+        <div>Фондация "Америка за България" финансира проект на "Икономедиа". Мненията и твърденията, изразени в изданията на "Икономедиа", са резултат от журналистическа дейност и отразяват редакционна позиция и не непременно възгледите на фондацията или на нейните директори, служители или представители. Изданията на "Икономедиа" спазват Етичния кодекс на българските журналисти.</div>
+     </div>
+     
+</html>

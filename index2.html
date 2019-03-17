@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' href='styles/dnevnikbg.css'>
+    <link rel='stylesheet' href='styles/style.css'>
+    <link rel='stylesheet' href='styles/reset.css'>
+    <script src="userStorage.js"></script>
+    <script src="userCollector.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <nav class= 'nav-section'>
+            <div class = 'logo'>
+                <img class="logoIMG" src="assets/logo-dnevnik.svg">
+                <div class="menu-link">
+                    <div id="white"></div>
+                    <div id="white"></div>
+                    <div id="white"></div>
+                </div>
+            </div>
+            <div class = 'right'>
+                <ul class = 'nav-links'>
+                    <li class='godinataIcon'>2019: Годината</li>
+                    <li class='expressIcon'><img src="assets/rocket.svg"> Д: Експрес </li>
+                    <li class='allTodayIcon'>Всичко от днес</li>
+                    <li class='searchIcon'><img src="assets/search.svg"></li>
+                    <li><p class='loginP' ></p><img class='loginIcon' src="assets/profile.svg"></li>
+                    <li class='lastIcon'><img src="assets/e.svg"></li>
+                </ul>
+                <div class='profileBox' onmouseover="MouseOver1()" onmouseout='MouseOut1()'>
+                    
+                    <button  class='next'> <p id='profile'></p></button>
+                       <button class='next'> <p>Любими</p></button>
+                    <button class='next' id='nextLast'><p>Изход</p></button>
+    
+                    
+                </div>
+            </div>
+    
+        </nav>
+        <div class='menuBox'onmouseover="MouseOver()" onmouseout='MouseOut()'>
+            <ul>
+
+                <li><a href='#'></a></li>
+                <li><a href='#'>Новини</a></li>
+                    <li><a href='#'>Политика</a></li>
+                    <li><a href='#'>Култура</a></li>
+                    <li><a href='#'>Скорост</a></li>
+                    <li><a href='#'>Анализи</a></li>
+                    <li><a href='#'></a></li>
+                    <li> <a href='#'>Развлечение</a></li>
+                    <li> <a href='#'>Морски</a></li>
+                    <li> <a href='#'>Видео</a></li>
+                    <li> <a href='#'>Свят</a></li>
+                    <li> <a href='#'>Детски</a></li>
+                    <li><a href='#'></a></li>
+                   
+        
+                </ul>
+                </div>
+
+                <div id='loginForm'>
+                        <img class= 'closing' src='assets/closingIcon2.png' alt='closingIcon'>
+                        <h1 class='.h1'>Вход</h1>
+        
+                        <form class='formLogin' action=''>
+                                <input id='username' class='inputLogin' type='text' placeholder="Username:"/>
+                                <input id='password' class='inputLogin'type='password' placeholder="Password:"/>
+                                <button id='loginButton'>
+                                 <p>Вход</p>
+                                </button>
+                               
+                                <hr class="loginHR">
+            
+                            </form>
+
+                            <p id="successful">Успешна регистрация! Моля влезте в профила си.</p>
+        <form class='formRegister' action=''>
+            <input id='username2' class='inputLogin' type='text' placeholder="Username:"/>
+            <input id='password2' class='inputLogin'type='password' placeholder="Password:"/>
+            
+            <button id='registerButton'>
+                <p>Регистрирай се сега!</p>
+               </button>
+            </button>
+           
+
+        </form>
+                </div>
+                <div id='articlesWrapper'>
+                <div class="articlesWrapper">
+
+
+                        <strong><h1 class='zaglavieArticle'>Помпео: За САЩ ще е по-трудно да сме партньори, <br> ако имате оборудване на Huawei</h1></strong>
+                  
+                   <div class='medias'>
+                       <img class='media1' src='assets/like.JPG' alt='Like'>
+                       <img class='media1' src='assets/facebook2.JPG' alt='Facebook'>
+                       <img class='media1' src='assets/twitter.JPG' alt='Twitter'>
+                       <img class='media1' src='assets/viber.JPG' alt='Twitter'>
+                       <img class='media1' src='assets/share.JPG' alt='Share'>
+                   </div>
+                   
+                                    <img class='kartinkaArticle' src='assets/sasht.jpg' alt='kartinka1'/>
+                                    <div class='textWrapper'>
+                                      
+                                            <p>
+                                                Държавният секретар на САЩ предупреди днес от унгарската столица съюзниците да не използват оборудване на китайската "Хуауей" (Huawei), защото това ще затрудни "партньорските ни отношения". "Държим да им посочим възможностите и рисковете от използването на такова оборудване", каза той пред репортери по време на посещението си в Унгария.<br><br>
+
+
+                                                Вашингтон е притеснен от растящото глобално влияние на най-големият в света производител на телекомуникационно оборудване Huawei Technologies и в частност експанзията в Унгария и Полша, допълва "Ройтерс". Помпео е на обиколка в Централна Европа, която започна от унгарската столица, продължава в Словакия и приключва във Варшава на голяма конференция, посветена на отношенията с Иран и опит за изгражданена коалиция за натиск срещу властите в Техеран. <br><br>
+                                                
+                                                
+                                                САЩ и част от западните им съюзници смятат, че оборудването на Huawei би могло да се използва за шпионаж. Според тях експанзията в Централна Европа е начин да се завоюва терен на единния пазар на ЕС. В Унгария обслужваме 70% от населението и си сътрудничим с повечето доставчици на телеком услуги, включително с държавни компании, казват сега от фирмата. 
+                                                
+                                                
+                                                Компанията категорично отхвърля подобни подозрения и обвинения и иска доказателства, че работи за разузнаването на която и да е държава по света. САЩ повдигнаха обвинения на Huawei, но те не са за възможност да се шпионира през продуктите ѝ, а за финансови схеми от преди години с използване на подставени фирми с цел заобикаляне ембаргото за бизнес с Иран. Другото обвинение на федералната прокуратура е за кражба на технологията за роботизирана ръка на компанията T-Mobile US Inc., с която се тестват екрани на мобилни устройства. Китайците отвърнаха, че спорът с T-Mobile е уреден преди години между двете компании.<br><br>
+                                                
+                                                
+                                                <h1 class='podzaglavie'>Полският арест и другите в ЕС</h1>
+                                                
+                                                По повод проблеми със служител на Huawei, арестуван в Полша по подозрение в шпионаж, компанията предложи миналата седмица да изгради в страната "център за кибер сигурност, ако властите приемат това като решение, на което може да се има доверие". Такива центрове вече има във Великобритания и Германия като средство за изграждане на доверие към продуктите.<br><br>
+                                                
+                                                
+                                                Гжегож Малецки, бивш ръководител на полското разузнаване, коментира, цитиран от "Файненшъл таймс", че не е изключено арестът да е извършен от Варшава, за да получи одобрението на САЩ. "В това има потенциал да пострадат полско-китайските отношения и би трябвало решението да е взето на най-високо правителствено равнище, където са преценили, че то е по-важно от запазването на добри връзки с Китай."<br><br>
+                                                
+                                                
+                                                Според правителствени източници в Берлин, цитирани от деловото издание "Ханделсблат", Хелге Браун - началник на кабинета на канцлера Ангела Меркел, е съгласувала позиция с министрите на външните и вътрешните работи, икономиката, финансите и инфраструктурата, с която да не се стига до изключване на Huawei Technologies от поръчките за изграждане на 5G мрежи в страната. При посещението си в Япония Меркел каза, че правителството ѝ ще направи всичко възможно да получи гаранции, че оборудването няма да позволява обработваната и пренасяне информация нелегално да стига до властите в Пекин.<br><br>
+                                                
+                                                
+                                                Ден по-късно италианският министър на промишлеността опроверга публикация, според която страната ще забрани достъп до конкурсите за 5G на китайските Huawei и ZTE Corp.
+                                                
+                                                
+                                                Но източници на "Ройтерс" твърдят, че Варшава се кани да направи това, а Остин Дзян, регионалин директор за връзки с обществеността на Huawei, каза, че няма никакво основание за подобно действие "и ако това се случи, с всички средства ще защитим бизнеса и репутацията си в Полша".
+                                                
+                                                
+                                                Преди две седмици Huawei бе изключена от поръчка за интернет портал на данъчните власти на Чехия, след като агенцията за компютърна сигурност в Прага предупреди, че има вероятност за заплахи за сигурността. Словашкият премиер петер Пелегрини каза през януари, че не смята китайската компания за заплаха и предупреди политиците "да внимават да не се превърнат в инструмент в търговска война между конкуренти".<br><br>
+                                                
+                                                
+                                                <h1 class='podzaglavie'> Вашингтон се завръща в Централна Европа</h1>
+                                                
+                                                "Файненшъл таймс" твърди, че САЩ са започнали дипломатическа кампания за ограничаване амбициите на Пекин в Централна Европа и предупрежденията за Huawei са само част от нея. Другата външна сила е Русия и Майк Помпео днес заяви, че САЩ не бива да позволяват президентът Владимир Путин "да вбива клин между приятели и в единството на НАТО". Би трябвало да сме по-ангажирани с района, допълни той, цитиран от "Ройтерс".<br><br>
+                                                
+                                                
+                                                Същото казаха американски представители в петък, според които предстои увеличаване на забавилото се с десетилетие американското дипломатическо, търговско, военно и културно ангажиране в района, включително като алтернатива на Китай и Русия, които са побързали да запълнят създалият се вакуум.
+                                                
+                                                
+                                                Но американски официални лица са посочили на брифинг, че "голям брой малки и средно големи държави" в Централна и Източна Европа - много от тях "силно податливи на корупция" - могат да позволят на Китай "да проникне в ключови сектори" и да оказва влияние отвътре в ЕС, пише от "Файненшъл таймс". "По-притеснени сме от китайското присъствие, от присъствието на Huawei, в Централна и Източна Европа, отколкото в Западна Европа", казва един от високопоставените представители на Вашингтон.<br><br>
+                                                
+                                                
+                                                Други проблеми според САЩ създавала групата 16+1 между Китай и страните от района, в която се обсъждат и големи инфраструктурни проекти. Анализатори, цитирани от "Файненшъл таймс", казват, че Вашингтон може да използва разочарованието, което се усеща в някои участнички в крупата - включително Полша - от качеството и цената на някои подкрепяни от Пекин проекти.<br><br>
+                                        </p>
+                                    </div>
+                                    <div class='medias'>
+                                            <img class='media1' src='assets/like.JPG' alt='Like'>
+                                            <img class='media1' src='assets/facebook2.JPG' alt='Facebook'>
+                                            <img class='media1' src='assets/twitter.JPG' alt='Twitter'>
+                                            <img class='media1' src='assets/viber.JPG' alt='Twitter'>
+                                            <img class='media1' src='assets/share.JPG' alt='Share'>
+                                        </div>
+                                        
+                                        <div class='manipulations'>
+                                                <button id='buttons' class='reдацт'>
+                                                        Редактирай
+                                                    </button>
+                                        <button id='buttons' class='replace'>
+                                            Замени
+                                        </button>
+                                        
+                                        </div>
+                                      
+                                        
+                    </div>
+                </div>
+
+    </div>
+</body>
+
+<footer class="details">
+
+        <div class="left-column"> 
+       <div>© 2001 – 2019 Икономедиа АД. Някои снимки © 2019 Associated Press и Reuters. Всички права запазени.</div> 
+       <div>Общи условия за ползване | Политика за бисквитките | Декларация за поверителност </div> 
+       <div>Уеб разработка на Икономедиа + дизайн на Studio X </div> 
+       <div>Действителни собственици на настоящото издание са Иво Георгиев Прокопиев и Теодор Иванов Захов.</div> 
+       <div>Дневник спазва етичния кодекс на българските медии.</div> 
+    
+    </div>
+     <div class ="right-column">
+    
+            <div>Бизнес: Капитал Кариери Бизнес Регал Одит Foton.bg</div>
+            <div>Новини: Дневник Европа </div>
+             <div>IT: Computerworld PC World CIO Networkworld</div>
+            <div>Развлечение: Бакхус LIGHT</div>
+            <div>На английски: KQuarterly</div>
+    
+     </div>
+    
+    
+        
+    </footer>
+    
+    <div class="amb">
+    
+            <img src="assets/amb.jpg">
+            <div>Фондация "Америка за България" финансира проект на "Икономедиа". Мненията и твърденията, изразени в изданията на "Икономедиа", са резултат от журналистическа дейност и отразяват редакционна позиция и не непременно възгледите на фондацията или на нейните директори, служители или представители. Изданията на "Икономедиа" спазват Етичния кодекс на българските журналисти.</div>
+         </div>
+         <script>
+         document.querySelector(".logoIMG").addEventListener('click', function(event){
+  window.location.replace("dnevnikbg.html");
+},false)
+         </script>
+
+         <script>
+         window.addEventListener('DOMContentLoaded', function(){
+    document.querySelector('#loginButton').addEventListener('click', function(event){
+event.preventDefault();
+
+        const username=document.querySelector('#username').value;
+        const password=document.querySelector('#password').value;
+
+        if (userStorage.login(username,password)){
+
+          
+
+            document.querySelector('#loginForm').style.visibility='hidden';
+            document.querySelector('.loginIcon').style.visibility='hidden';
+            document.querySelector('.loginP').innerHTML=username;
+            document.querySelector('#profile').innerHTML=username;
+            if (username==='Gosho'){
+                document.querySelector('.manipulations').style.display='block';
+            }else{
+                document.querySelector('.manipulations').style.display='none';
+            }
+          
+           
+          
+            document.querySelector('.loginP').addEventListener('click',function(event){
+                document.querySelector('.profileBox').style.visibility='visible';
+
+                
+
+                
+
+            },false);
+           
+
+        }else{
+            alert("Error");
+        }
+
+
+       
+    
+
+    
+    },false);
+
+
+    document.querySelector('#registerButton').addEventListener('click', function(event){
+        event.preventDefault();
+
+        let hasErrors=false;
+        const username=document.querySelector('#username2').value;
+        const password=document.querySelector('#password2').value;
+
+    if (username.trim().length<4){
+        document.querySelector('#username2').style.backgroundColor='red';
+        hasErrors=true;
+    }else{
+        document.querySelector('#username2').style.backgroundColor='green';
+    }
+
+    if (password.trim().length<6){
+        document.querySelector('#password2').style.backgroundColor='red';
+        hasErrors=true;
+    }else{
+        document.querySelector('#password2').style.backgroundColor='green';
+    }
+    if (!hasErrors){
+        
+        userStorage.register(username,password);
+        document.querySelector('#username2').style.backgroundColor='white';
+        document.querySelector('#username2').value='';
+        document.querySelector('#password2').value='';
+
+
+        document.querySelector('#password2').style.backgroundColor='white';
+
+        document.querySelector('.formRegister').style.display='none';
+        document.querySelector('#successful').style.display='inline-block';
+    }
+    },false);
+
+
+    document.querySelector('#username2').addEventListener('keyup',function(event){
+        const username=document.querySelector('#username2').value;
+        const password=document.querySelector('#password2').value;
+
+    if (username.trim().length<4){
+        document.querySelector('#username2').style.backgroundColor='red';
+    }else{
+        document.querySelector('#username2').style.backgroundColor='green';
+    }
+    if(username.trim().length===0){
+        document.querySelector('#username2').style.backgroundColor='white';
+    }
+
+
+
+    },false);
+    document.querySelector('#password2').addEventListener('keyup',function(event){
+        document.querySelector('#password2').style.backgroundColor='white';
+
+        const username=document.querySelector('#username2').value;
+        const password=document.querySelector('#password2').value;
+        if (password.trim().length<6){
+            document.querySelector('#password2').style.backgroundColor='red';
+        }else{
+            document.querySelector('#password2').style.backgroundColor='green';
+        }
+
+        if(password.trim().length===0){
+            document.querySelector('#password2').style.backgroundColor='white';
+        }
+    },false);
+
+
+    document.querySelector('#nextLast').addEventListener('click',function(event){
+    document.querySelector('.profileBox').style.visibility='hidden';
+    document.querySelector('.loginP').innerHTML='';
+    document.querySelector('.loginIcon').style.visibility='visible';
+    document.querySelector('#password').value='';
+
+
+    });
+
+
+});
+
+
+
+
+
+
+         </script>
+
+
+<script src="script.js"></script>
+<script src="userStorage.js"></script>
+<script src="userCollector.js"></script>
+
+</html>
